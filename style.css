@@ -1,9 +1,74 @@
+@font-face {
+    font-family: 'shootingstar';
+    src: url("fonts/shooting_star.ttf");
+}
+
+@font-face {
+    font-family: 'brusket';
+    src: url("fonts/brusket.otf");
+}
+
+@font-face {
+    font-family: 'feltfulregular';
+    src: url("fonts/feltful_regular.otf");
+}
+
+@font-face {
+    font-family: 'whitelettersital';
+    src: url("fonts/whitelettersitalic.ttf");
+}
+
+@font-face {
+    font-family: 'whitelettersreg';
+    src: url("fonts/whitelettersreg.ttf");
+}
+
 body {
     background-color: black;
     color: white;
+    font-family: 'shootingstar';
+}
+
+h1 {
+    font-size: 500%;
+}
+
+ul {
+    font-size: 150%;
+    font-family: 'brusket';
+    list-style-type: none;
+    margin: 200px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(100, 100, 100, 0.1);
+    border: 1px white solid;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.emphasized_center {
+    text-align: center;
+    padding: 10px;
 }
 
 div {
-    border: 10px;
-    border-color: white;
+    padding: 10px;
+    border: 2px white solid;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
